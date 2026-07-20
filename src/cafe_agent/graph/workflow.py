@@ -2,7 +2,7 @@ from langgraph.graph import START, END, StateGraph
 from src.cafe_agent.graph.state import AgentState
 from langgraph.checkpoint.memory import MemorySaver
 from src.cafe_agent.graph.nodes import node_triaje, node_rag, node_open_ticket, node_final, node_pedir_info
-from graph.routing import edge_triaje_decision
+from src.cafe_agent.graph.routing import edge_triaje_decision
 
 workflow = StateGraph(AgentState)
 workflow.add_node("triaje", node_triaje)
