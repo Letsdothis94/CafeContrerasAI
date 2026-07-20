@@ -12,3 +12,4 @@ pymupdf
 python-dotenv
 requests
 pydantic
+sentence-transformers
